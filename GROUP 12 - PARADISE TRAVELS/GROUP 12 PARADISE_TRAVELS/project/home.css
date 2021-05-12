@@ -1,0 +1,220 @@
+
+header{
+    margin: 0px auto;
+    padding: 0px 0px;
+    display: block;
+}
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.headinglink{
+
+    float:left;
+    height:65px;
+    width:115px;
+    border-top-left-radius:  40px;
+    border-top-right-radius:  40px;
+    border-bottom-left-radius:  40px;
+    border-bottom-right-radius:  40px;
+    outline:0;
+    text-align:left;
+    transform: scale(1.2);
+    object-fit: cover;
+
+}
+
+
+
+
+.navbar {
+  width:auto;
+  overflow: auto;
+  height: 65px;;
+  color:#fff;
+  background-color:#0F292F;
+  padding: 10px 24px 10px 24px ;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  color: #14A098;
+  background-color: #0F292F;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #246270;
+}
+
+/* Current/active navbar link */
+.navbar a.active {
+  padding: 12px;
+  background-color: #0F292F ;
+  box-shadow:  0 1px #fff;
+  color: #FFF;
+
+}
+.container {
+  height: 100px;
+  position: relative;
+  background-color: #501F3A;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.hover-opacity{
+    opacity:1;
+    height: 45px;
+    width:45px;
+    color: #CB2D6F;
+    padding:5px;
+}
+.hover-opacity:hover{opacity:0.60}
+
+
+.slideshow-conatiner{
+  height: 200px;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.row {
+  display: flex;
+ 
+  background-color:#dedede;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 60%;
+  padding: 10px;
+  height: 550px;
+}
+
+
+.column2 {
+
+  flex: 40%;
+  padding: 10px;
+  height: 550px;
+  padding-left:30px;
+
+}
+
+
+.proflie-card{
+        flex: 30%;
+        overflow: hidden;
+        margin-left: 200px;
+        color:#0F292F ;
+        background: #14A098;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 280px;
+
+        text-align: center;
+        padding-bottom: 20px;
+        padding-right:20px:
+
+}
+
+
+
+.title {
+  color:#102f36;
+  font-size: 18px;
+}
+
+
+.proflie-card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #0F292F ;
+}
+
+
+
+#myvedio{
+    height: 10px;
+    margin-top:  10px;
+
+    margin-left: 200px;
+
+}
+
+.Gallerycontainer{
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom:60px;
+    background-color: #dedede;
+
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+.rowg {
+  display: flex;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columng {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columng img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columng {
+    flex: 50%;
+    max-width: 50%;
+  }
+}

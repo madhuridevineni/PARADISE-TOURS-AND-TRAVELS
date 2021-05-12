@@ -1,0 +1,71 @@
+
+
+
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 12100, 'delhi', '2021-04-16');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 12000, 'delhi', '2021-04-17');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Roseate', 10000, 'delhi', '2021-04-18');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Roseate', 9900, 'delhi', '2021-04-19');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 11700, 'delhi', '2021-04-20');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Maurya', 8000, 'delhi', '2021-04-21');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Roseate',9700, 'delhi', '2021-04-22');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 9200, 'delhi', '2021-04-23');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 9000, 'delhi', '2021-04-24');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Maurya', 7600, 'delhi', '2021-04-25');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 8500, 'delhi', '2021-04-26');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Maurya', 7400, 'delhi', '2021-04-27');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 8300, 'delhi', '2021-04-28');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Roseate', 9000, 'delhi', '2021-04-29');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Taj Palace', 8200, 'delhi', '2021-04-30');
+
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7800, 'chennai', '2021-04-16');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7700, 'chennai', '2021-04-17');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Trident Chennai', 8600, 'chennai', '2021-04-18');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Trident Chennai', 8400, 'chennai', '2021-04-19');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7500, 'chennai', '2021-04-20');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Leela Palace', 7500, 'chennai', '2021-04-21');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Trident Chennai',8000, 'chennai', '2021-04-22');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7200, 'chennai', '2021-04-23');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7000, 'chennai', '2021-04-24');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Leela Palace', 7300, 'chennai', '2021-04-25');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 8500, 'chennai', '2021-04-26');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Leela Palace', 7100, 'chennai', '2021-04-27');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7000, 'chennai', '2021-04-28');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Trident Chennai', 6800, 'chennai', '2021-04-29');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Accord Metropolitan', 7000, 'chennai', '2021-04-30');
+
+
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 9000, 'kolkata', '2021-04-16');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8900, 'kolkata', '2021-04-17');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Westin Kolkata', 9500, 'kolkata', '2021-04-18');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Westin Kolkata', 9400, 'kolkata', '2021-04-19');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8700, 'kolkata', '2021-04-20');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Oberoi Grand', 8400, 'kolkata', '2021-04-21');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Westin Kolkata', 9200, 'kolkata', '2021-04-22');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8500, 'kolkata', '2021-04-23');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8400, 'kolkata', '2021-04-24');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Oberoi Grand', 8200, 'kolkata', '2021-04-25');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8200, 'kolkata', '2021-04-26');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Oberoi Grand',8000, 'kolkata', '2021-04-27');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 8000, 'kolkata', '2021-04-28');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('The Westin Kolkata', 8800, 'kolkata', '2021-04-29');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('ITC Sonar', 7800, 'kolkata', '2021-04-30');
+
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End', 9800, 'mumbai', '2021-04-16');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9700, 'mumbai', '2021-04-17');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('JW Marriott Mumbai Juhu', 9600, 'mumbai', '2021-04-18');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('JW Marriott Mumbai Juhu', 9500, 'mumbai', '2021-04-19');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9500, 'mumbai', '2021-04-20');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Hilton Mumbai', 8700, 'mumbai', '2021-04-21');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('JW Marriott Mumbai Juhu',9300, 'mumbai', '2021-04-22');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9500, 'mumbai', '2021-04-23');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9400, 'mumbai', '2021-04-24');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Hilton Mumbai', 8400, 'mumbai', '2021-04-25');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9300, 'mumbai', '2021-04-26');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Hilton Mumbai',8300, 'mumbai', '2021-04-27');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9200, 'mumbai', '2021-04-28');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('JW Marriott Mumbai Juhu', 8800, 'mumbai', '2021-04-29');
+INSERT INTO `accommodation` (`hotelname`, `price`, `place`, `date`) VALUES ('Taj Lands End ', 9100, 'mumbai', '2021-04-30');
+
+
+
+

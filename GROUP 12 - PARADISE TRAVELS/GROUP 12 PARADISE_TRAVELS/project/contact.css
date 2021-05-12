@@ -1,0 +1,187 @@
+.header{
+    margin: 0px auto;
+    padding: 0px 0px;
+    display: block;
+}
+
+
+body{
+    margin: 0;
+}
+
+.headinglink{
+
+    float:left;
+    height:65px;
+    width:115px;
+    border-top-left-radius:  40px;
+    border-top-right-radius:  40px;
+    border-bottom-left-radius:  40px;
+    border-bottom-right-radius:  40px;
+    outline:0;
+    text-align:left;
+    transform: scale(1.2);
+    object-fit: cover;
+
+}
+
+
+
+
+.navbar {
+  width:auto;
+  overflow: auto;
+  height: 65px;;
+  color:#fff;
+  background-color:#0F292F;
+  padding: 10px 24px 10px 24px ;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  color: #14A098;
+  background-color: #0F292F;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #246270;
+}
+
+/* Current/active navbar link */
+.navbar a.active {
+  padding: 12px;
+  background-color: #0F292F ;
+  box-shadow:  0 1px #fff;
+  color: #FFF;
+
+}
+.container {
+  height: 100px;
+  position: relative;
+  background-color: #501F3A;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.hover-opacity{
+    opacity:1;
+    height: 45px;
+    width:45px;
+    color: #CB2D6F;
+    padding:5px;
+}
+.hover-opacity:hover{opacity:0.60}
+
+input[type=text],input[type=email],input[type=tel], select, textarea {
+  width: 60%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 5px;
+  background-color:#dedede;
+  height: 1000px;
+
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.container1 h1{
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.container2{
+
+    padding-left: 70px;
+    z-index: 0;
+
+
+}
+
+.head1{
+    font-size: 30px;
+
+}
+
+.address{
+    padding-left: 20px;
+
+}
+
+.address h4{
+    font-size: 25px;
+
+}
+
+address{
+    font-size: 20px;
+}
+
+.buttons{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.btn {
+  border: none;
+  color: white; /* Add a text color */
+  padding: 10px;
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.call {background-color: #4CAF50;  border-top-left-radius: 3px; border-bottom-left-radius: 3px} /* Green */
+.call:hover {background-color: #46a049;}
+
+.gmap {background-color:  #DD4B3E;} /* Blue */
+.gmap:hover {background: #822F2B;}
+
+
+.email {background-color: #ff9800; border-top-right-radius: 3px; border-bottom-right-radius: 3px} /* Orange */
+.email:hover {background: #e68a00;}
+
+
+hr {
+    width:60%;
+    align-content: flex-end;
+    margin: 0;
+}

@@ -1,0 +1,241 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+
+body{
+    margin: 0px auto;
+    background: #dedede;
+}
+
+
+.headinglink{
+
+    float:left;
+    height:65px;
+    width:115px;
+    border-top-left-radius:  40px;
+    border-top-right-radius:  40px;
+    border-bottom-left-radius:  40px;
+    border-bottom-right-radius:  40px;
+    outline:0;
+    text-align:left;
+    transform: scale(1.2);
+    object-fit: cover;
+
+}
+
+
+
+
+.navbar {
+  width:auto;
+  overflow: auto;
+  height: 65px;;
+  color:#fff;
+  background-color:#0F292F;
+  padding: 10px 24px 10px 24px ;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  color: #14A098;
+  background-color: #0F292F;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #246270;
+}
+
+/* Current/active navbar link */
+.navbar a.active {
+  padding: 12px;
+  background-color: #0F292F ;
+  box-shadow:  0 1px #fff;
+  color: #FFF;
+
+}
+.container {
+  height: 100px;
+  position: relative;
+  background-color: #501F3A;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.hover-opacity{
+    opacity:1;
+    height: 45px;
+    width:45px;
+    color: #CB2D6F;
+    padding:5px;
+}
+.hover-opacity:hover{opacity:0.60}
+
+
+.wrapper h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wrapper h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width:27%;
+  text-align: center;
+  padding-top: 30x;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.wrapper {
+  height: 600px;
+  position: relative;
+  background-image: url("paradise.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+.midcontainer{
+    margin-left: 400px;
+    width: 40%;
+    height: 270px;
+    overflow: hidden;
+    background-color: #ccc;
+    opacity: 70%;
+    border-radius: 20px;
+
+}
+
+.columnitem {
+  flex: 50%;
+  padding: 10px;
+}
+
+.rowitem {
+  display: flex;
+}
+
+.tabcontent button{
+    margin-left: 200px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.review{
+    height: 300px;
+    position: relative;
+    background-color: #fff;
+    margin:  40px;
+}
+.collapsible {
+  background-color:#0F292F;
+  color: #14A098 ;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.activate, .collapsible:hover {
+  background-color: #246270;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow:hidden;
+  background-color: #f1f1f1;
+  width: 77.5%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container2 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+
+}
+
+/* Clear floats after containers */
+.container2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container2 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.checked{
+    color: orange;
+}

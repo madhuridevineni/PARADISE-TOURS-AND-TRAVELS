@@ -1,0 +1,180 @@
+.header{
+    margin: 0px auto;
+    padding: 0px 0px;
+    display: block;
+}
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background:#dedede/* Hide horizontal scrollbar */
+}
+
+.headinglink{
+
+    float:left;
+    height:65px;
+    width:115px;
+    border-top-left-radius:  40px;
+    border-top-right-radius:  40px;
+    border-bottom-left-radius:  40px;
+    border-bottom-right-radius:  40px;
+    outline:0;
+    text-align:left;
+    transform: scale(1.2);
+    object-fit: cover;
+
+}
+
+
+
+
+.navbar {
+  width:auto;
+  overflow: auto;
+  height: 65px;;
+  color:#fff;
+  background-color:#0F292F;
+  padding: 10px 24px 10px 24px ;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  color: #14A098;
+  background-color: #0F292F;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #246270;
+}
+
+/* Current/active navbar link */
+.navbar a.active {
+  padding: 12px;
+  background-color: #0F292F ;
+  box-shadow:  0 1px #fff;
+  color: #FFF;
+
+}
+.container {
+  height: 100px;
+  position: relative;
+  background-color: #501F3A;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.hover-opacity{
+    opacity:1;
+    height: 45px;
+    width:45px;
+    color: #CB2D6F;
+    padding:5px;
+}
+.hover-opacity:hover{opacity:0.60}
+
+
+
+.row {
+  margin: 0 -5px;
+  background: #dedede;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23.5%;
+  padding: 0 10px;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  text-align: center;
+  height:400px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #14A098;
+  color: #0F292F;
+}
+
+.button {
+  background-color: #0F292F;
+
+  border: none;
+  color: #14A098;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.containercard {
+  padding: 2px 16px;
+}
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card form{
+     margin:0;
+     height:0;
+}
+
+/*.card button {
+  border: none;
+  outline: 0;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}*?

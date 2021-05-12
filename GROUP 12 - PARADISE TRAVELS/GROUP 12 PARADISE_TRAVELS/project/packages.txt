@@ -1,0 +1,11 @@
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Beach Paradise', '3 D & 4 N', 'goa', 'south', 45000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Royal Paradise', '5 D & 6 N', 'mysore', 'south', 49000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Cave Paradise', '4 D & 3 N', 'ajanta', 'south', 40000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Green Paradise', '3 D & 2 N', 'kerala', 'south', 35000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Pink Paradise', '5 D & 6 N', 'jaipur', 'north', 45000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The City Paradise', '3 D & 2 N', 'kolkata', 'north',30000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The Snow Paradise', '4 D & 5 N', 'shimla', 'north', 45000);
+INSERT INTO `packages` (`name`, `duration`, `place`, `type`, `price`) VALUES ('The River Paradise', '4 D & 5 N', 'Allahabad', 'north', 35000);
+
+
+
